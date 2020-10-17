@@ -1,0 +1,6 @@
+name: ViperUHC
+version: ${project.version}
+main: me.nestorioxxx.PandaUHC
+authors: [NestorioXXX]
+description: A UHC Core developed by Nestorioxxx
+depend: [WorldBorder]
