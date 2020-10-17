@@ -29,7 +29,7 @@ public final class PandaUHC extends JavaPlugin {
         new Assemble(this, new ScoreboardManager());
 
         Bukkit.getScheduler().scheduleSyncDelayedTask(this, () -> {
-            Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aViperUHC&8] &fEnabling plugin..."));
+            Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aPandaUHC&8] &fEnabling plugin..."));
 
             registerCommands();
             registerListeners();
